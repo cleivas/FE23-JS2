@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+form{
+    margin: 1rem;
+}
+.task{
+    cursor: pointer;
+    border: 1px solid blue;
+    /* width: fit-content; */
+    display: flex;
+    align-items: center;
+    margin: .5rem 1rem;
+    padding: .2rem;
+}
+.task h3{
+    cursor: pointer;
+}
+
+.task button{
+    height: fit-content;
+    margin-left: .5rem;
+}
+
+.done{
+    text-decoration: line-through;
+}
