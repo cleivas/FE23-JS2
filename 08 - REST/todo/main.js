@@ -37,7 +37,7 @@ tasksDiv.addEventListener('click', ({ target }) => {
 
         let id;
         let done;
-
+        console.log(target.id)
         if (target.id === "") {
             id = target.closest('div').id;
             done = target.closest('div').classList.contains('done');

@@ -23,6 +23,6 @@ form{
     margin-left: .5rem;
 }
 
-.done{
+.done h3{
     text-decoration: line-through;
 }

@@ -1,6 +1,7 @@
 
 
 export default function displayTasks(tasks){
+    // console.log(tasks)
     const taskContainer = document.querySelector('#taskContainer')
     taskContainer.innerHTML = '';
 
