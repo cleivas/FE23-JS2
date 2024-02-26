@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./main.js" type="module"></script>
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="p1Name">Player 1</label>
+        <input id="p1Name" name='p1Name' type="text" placeholder="enter name">
+
+        <select name="p1Type" id="p1Type">
+            <option disabled selected > -- select a fighter -- </option>
+            <option value="cyborg">Cyborg</option>
+            <option value="gnome">Gnome</option>
+        </select>
+        <br>
+
+        <label for="p2Name">Player 2</label>
+        <input id="p2Name" name='p2Name' type="text" placeholder="enter name">
+        <select name="p2Type" id="p2Type" >
+            <option disabled selected > -- select a fighter -- </option>
+            <option value="cyborg">Cyborg</option>
+            <option value="gnome">Gnome</option>
+        </select>
+        <br>
+        <button>FIGHT!</button>
+    </form>
+    <div id="gameContainer">
+
+    </div>
+</body>
+</html>
