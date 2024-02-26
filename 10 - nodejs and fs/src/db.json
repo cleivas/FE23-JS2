@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": 1708681822720,
+      "name": "Filip",
+      "admin": false
+    },
+    {
+      "name": "Javad",
+      "admin": true,
+      "id": 1708690491013
+    },
+    {
+      "name": "Melker",
+      "admin": true,
+      "id": 1708690528838
+    },
+    {
+      "name": "Erika",
+      "admin": false,
+      "id": 1708690544766
+    },
+    {
+      "id": 1708943353881,
+      "name": "Ingo",
+      "admin": false
+    },
+    {
+      "id": 1708945911598,
+      "name": "Clara",
+      "admin": false
+    }
+  ]
+}
