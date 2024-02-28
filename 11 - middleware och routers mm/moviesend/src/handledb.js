@@ -11,24 +11,47 @@ async function writeDB(db){
     await fs.writeFile('./src/moviedb.json', newDB)
 }
 
-async function getMovies(){
-    const {movies} = await readDB();
+async function getMovies(db){
+    let dataBase;
+    if(db) dataBase = db;
+    else dataBase = await readDB();
+    
+    const {movies} = dataBase;
     return movies;
 }
 
-async function getActors(){
-    const {actors} = await readDB();
+async function  getActors(db){
+    // console.log(db);
+    let dataBase;
+    if(db) dataBase = db;
+    else dataBase = await readDB();
+    
+    const {actors} = dataBase;
     return actors;
 }
 
 async function addMovie(newMovie){
-    const movies = await getMovies();
+    const db = await readDB();
+    console.log(db)
+    
+    const movies =  await getMovies(db);
     movies.push(newMovie);
 
-    const actors = await getActors();
+    const actors = await getActors(db);
     const newDB = {movies, actors};
 
     await writeDB(newDB);
 }
 
-export {getMovies, addMovie};
+async function addActor(newActor){
+    const db = await readDB();
+    
+    const movies = await getMovies(db);
+    const actors = await getActors(db);
+    actors.push(newActor);
+    const newDB = {movies, actors};
+
+    await writeDB(newDB);
+}
+
+export {getMovies, addMovie, getActors, addActor};

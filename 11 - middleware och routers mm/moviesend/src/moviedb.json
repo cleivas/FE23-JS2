@@ -31,7 +31,10 @@
       "genre": "animation"
     },
     {
-      "name": "movie"
+      "name": "Ready player one",
+      "director": "Steven Spielberg",
+      "year": 2018,
+      "genre": "sci-fi"
     }
   ],
   "actors": [
@@ -42,6 +45,10 @@
     {
       "name": "Jason Momoa",
       "age": 44
+    },
+    {
+      "name": "Benny",
+      "age": 46
     }
   ]
 }
