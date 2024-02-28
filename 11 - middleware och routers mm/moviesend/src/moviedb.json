@@ -1,0 +1,47 @@
+{
+  "movies": [
+    {
+      "name": "Titanic",
+      "year": 1997,
+      "director": "James Cameron",
+      "genre": "drama"
+    },
+    {
+      "name": "The dark knight",
+      "year": 2008,
+      "director": "Christopher Nolan",
+      "genre": "action"
+    },
+    {
+      "name": "Super Hero",
+      "year": 2001,
+      "director": "Peter Jackson",
+      "genre": "fantasy"
+    },
+    {
+      "name": "Trolls 3",
+      "year": 2024,
+      "director": "Ingen aning",
+      "genre": "animation"
+    },
+    {
+      "name": "Shrek",
+      "year": "2001",
+      "director": "vet ej",
+      "genre": "animation"
+    },
+    {
+      "name": "movie"
+    }
+  ],
+  "actors": [
+    {
+      "name": "Johnny, Depp",
+      "age": 60
+    },
+    {
+      "name": "Jason Momoa",
+      "age": 44
+    }
+  ]
+}
